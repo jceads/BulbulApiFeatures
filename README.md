@@ -5,7 +5,8 @@ A Minimal Api written in .NET 7.
 ## Description
 
 A minimal api that aims to become a social media. Uses MySql for database. In the beginning i went with entity framework core. Using link queries is awesome. Using link methods looks more readable to me. Performance tests will be do in future. After ef core i tried to use Dapper. With dapper i have to write raw sql and in my opinion this so cool. I had to understand how to make manually left-right joins. External sources says dapper's performance metrics so much better but i haven't tested yet. Using docker for hosting on our external server is almost crucial general way so i use docker for publishing. I will write a Android app for this api. Stay tuned!
-
+## New!
+Feed feature added. You can get posts that relevant with you
 ## Getting Started
 
 ### Dependencies
